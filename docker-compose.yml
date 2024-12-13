@@ -1,0 +1,7 @@
+services:
+  calc_serv:
+    build: .
+    ports:
+      - "7777:9090"
+    environment:
+      - CALC_PORT=9090
